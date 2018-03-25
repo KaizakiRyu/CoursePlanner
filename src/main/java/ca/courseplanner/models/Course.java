@@ -44,14 +44,14 @@ public class Course {
         this.listOfCourseOffering.add(courseOffering);
     }
 
-//    public boolean containCourseOffering(CourseOffering courseOffering){
-//        ArrayList<CourseOffering> listOfCourseOffering = getListOfCourseOffering();
-//        for (CourseOffering currentOffering : listOfCourseOffering){
-//            if (currentOffering.getSemester() == courseOffering.getSemester() && currentOffering.getLocation().equals(courseOffering.getLocation())){
-//                return true;
-//            }
-//        }
-//        return false;
-//    }
+    public boolean containCourseOffering(CourseOffering courseOffering){
+        ArrayList<CourseOffering> listOfCourseOffering = getListOfCourseOffering();
+        for (CourseOffering currentOffering : listOfCourseOffering){
+            if (currentOffering.equals(courseOffering)){
+                return true;
+            }
+        }
+        return false;
+    }
 }
 

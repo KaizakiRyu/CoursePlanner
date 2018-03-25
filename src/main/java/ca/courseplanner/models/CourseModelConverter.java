@@ -34,9 +34,13 @@ public class CourseModelConverter {
 
         for (Course currentCourse: convertModel){
             for (CsvModel currentModel : listOfCsvModel){
-                if (currentCourse.getSubject().equals(currentModel.getSubject()) && currentCourse.getCatalogNumber().equals(currentModel.getCatalogNumber())){
+                if (currentCourse.getSubject().equals(currentModel.getSubject()) && currentCourse.getCatalogNumber().equals(currentModel.getCatalogNumber())) {
                     CourseOffering courseOffering = new CourseOffering(currentModel);
-                    currentCourse.addCourseOffering(courseOffering);
+                    if (currentCourse.containCourseOffering(courseOffering)) {
+
+                    } else {
+                        currentCourse.addCourseOffering(courseOffering);
+                    }
                 }
             }
         }

@@ -61,4 +61,9 @@ public class CourseOffering {
     public void addCourseSection(CourseSection courseSection){
         this.listOfCourseSection.add(courseSection);
     }
+
+    public void addInstructor(String instructor){
+        this.listOfInstructor.add(instructor);
+    }
+
 }
