@@ -28,14 +28,14 @@ public class CsvModel {
     }
 
     public CsvModel(ArrayList<String> currentLine) {
-        this.semester = currentLine.get(SEMESTER_INDEX).trim();
-        this.subject = currentLine.get(SUBJECT_INDEX).trim();
-        this.catalogNumber = currentLine.get(CATALOG_NUMBER_INDEX).trim();
-        this.location = currentLine.get(LOCATION_INDEX).trim();
-        this.enrolmentCapacity = currentLine.get(ENROLMENT_CAPACITY_INDEX).trim();
-        this.enrolmentTotal = currentLine.get(ENROLMENT_TOTAL_INDEX).trim();
+        this.semester = currentLine.get(SEMESTER_INDEX).trim().toUpperCase();
+        this.subject = currentLine.get(SUBJECT_INDEX).trim().toUpperCase();
+        this.catalogNumber = currentLine.get(CATALOG_NUMBER_INDEX).trim().toUpperCase();
+        this.location = currentLine.get(LOCATION_INDEX).trim().toUpperCase();
+        this.enrolmentCapacity = currentLine.get(ENROLMENT_CAPACITY_INDEX).trim().toUpperCase();
+        this.enrolmentTotal = currentLine.get(ENROLMENT_TOTAL_INDEX).trim().toUpperCase();
         this.instructors = currentLine.get(INSTRUCTORS_INDEX).trim();
-        this.componentCode = currentLine.get(COMPONENT_CODE_INDEX).trim();
+        this.componentCode = currentLine.get(COMPONENT_CODE_INDEX).trim().toUpperCase();
     }
 
     public String getSemester() {
@@ -102,25 +102,25 @@ public class CsvModel {
         this.componentCode = componentCode;
     }
 
-    public static Comparator<CsvModel> SubjectCatalogNumberSemesterLocationComparator = new Comparator<CsvModel>() {
-        @Override
-        public int compare(CsvModel csvCourseFormat1, CsvModel csvCourseFormat2) {
-            int subjectCompare = csvCourseFormat1.subject.compareTo(csvCourseFormat2.subject);
-            if (subjectCompare == 0) {
-                int catalogCompare = csvCourseFormat1.catalogNumber.compareTo(csvCourseFormat2.catalogNumber);
-                if (catalogCompare == 0) {
-                    int semesterCompare = csvCourseFormat1.semester.compareTo(csvCourseFormat2.semester);
-                    if (semesterCompare == 0) {
-                        return csvCourseFormat1.location.compareTo(csvCourseFormat2.location);
-                    } else {
-                        return semesterCompare;
-                    }
-                } else {
-                    return catalogCompare;
-                }
-            } else {
-                return subjectCompare;
-            }
-        }
-    };
+//    public static Comparator<CsvModel> SubjectCatalogNumberSemesterLocationComparator = new Comparator<CsvModel>() {
+//        @Override
+//        public int compare(CsvModel csvCourseFormat1, CsvModel csvCourseFormat2) {
+//            int subjectCompare = csvCourseFormat1.subject.compareTo(csvCourseFormat2.subject);
+//            if (subjectCompare == 0) {
+//                int catalogCompare = csvCourseFormat1.catalogNumber.compareTo(csvCourseFormat2.catalogNumber);
+//                if (catalogCompare == 0) {
+//                    int semesterCompare = csvCourseFormat1.semester.compareTo(csvCourseFormat2.semester);
+//                    if (semesterCompare == 0) {
+//                        return csvCourseFormat1.location.compareTo(csvCourseFormat2.location);
+//                    } else {
+//                        return semesterCompare;
+//                    }
+//                } else {
+//                    return catalogCompare;
+//                }
+//            } else {
+//                return subjectCompare;
+//            }
+//        }
+//    };
 }

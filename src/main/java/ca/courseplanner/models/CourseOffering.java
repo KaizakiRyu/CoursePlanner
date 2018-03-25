@@ -58,12 +58,26 @@ public class CourseOffering {
         this.listOfCourseSection = listOfCourseSection;
     }
 
-    public void addCourseSection(CourseSection courseSection){
+    public void addCourseSection(CourseSection courseSection) {
         this.listOfCourseSection.add(courseSection);
     }
 
-    public void addInstructor(String instructor){
-        this.listOfInstructor.add(instructor);
+    public void addInstructor(String instructors){
+        StringTokenizer stringTokenizer = new StringTokenizer(instructors);
+        while (stringTokenizer.hasMoreTokens()){
+            String currentInstructor = stringTokenizer.nextToken();
+            this.listOfInstructor.add(currentInstructor);
+        }
+    }
+
+    public CourseSection findCourseSection (CourseSection courseSection){
+        ArrayList<CourseSection> listOfCourseOffering = getListOfCourseSection();
+        for (CourseSection currentSection : listOfCourseOffering) {
+            if (currentSection.getComponentCode() == courseSection.getComponentCode()) {
+                return currentSection;
+            }
+        }
+        return null;
     }
 
 }

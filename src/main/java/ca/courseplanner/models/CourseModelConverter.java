@@ -2,7 +2,6 @@ package ca.courseplanner.models;
 
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 /**
@@ -36,11 +35,14 @@ public class CourseModelConverter {
             for (CsvModel currentModel : listOfCsvModel){
                 if (currentCourse.getSubject().equals(currentModel.getSubject()) && currentCourse.getCatalogNumber().equals(currentModel.getCatalogNumber())) {
                     CourseOffering courseOffering = new CourseOffering(currentModel);
-                    if (currentCourse.containCourseOffering(courseOffering)) {
-
+                    CourseOffering currentCourseOffering = currentCourse.findCourseOffering(courseOffering);
+                    if (currentCourseOffering != null) {
+                        currentCourseOffering.addInstructor(currentModel.getInstructors());
                     } else {
                         currentCourse.addCourseOffering(courseOffering);
                     }
+                    CourseSection courseSection = new CourseSection(currentModel);
+                    CourseSection currentCourseSection = currentCourseOffering.findCourseSection(courseSection);
                 }
             }
         }

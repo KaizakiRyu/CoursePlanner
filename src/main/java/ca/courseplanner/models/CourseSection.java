@@ -19,23 +19,19 @@ public class CourseSection {
         return componentCode;
     }
 
-    public void setComponentCode(String componentCode) {
-        this.componentCode = componentCode;
-    }
-
     public int getEnrolmentCapacity() {
         return enrolmentCapacity;
     }
 
-    public void setEnrolmentCapacity(int enrolmentCapacity) {
-        this.enrolmentCapacity = enrolmentCapacity;
+    public void addEnrolmentCapacity(int enrolmentCapacity) {
+        this.enrolmentCapacity += enrolmentCapacity;
     }
 
     public int getEnrolmentTotal() {
         return enrolmentTotal;
     }
 
-    public void setEnrolmentTotal(int enrolmentTotal) {
-        this.enrolmentTotal = enrolmentTotal;
+    public void addEnrolmentTotal(int enrolmentTotal) {
+        this.enrolmentTotal += enrolmentTotal;
     }
 }
