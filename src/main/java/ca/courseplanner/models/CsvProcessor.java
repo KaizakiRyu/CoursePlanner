@@ -26,9 +26,8 @@ public class CsvProcessor {
     }
 
     private void parseCSVFile(){
-        Scanner scanner = null;
         try {
-            scanner = new Scanner(new File(CSV_PATH));
+            Scanner scanner = new Scanner(new File(CSV_PATH));
             while (scanner.hasNext()) {
                 ArrayList<String> csvLine = parseLine(scanner.nextLine());
                 CsvModel csvCourseFormat = new CsvModel(csvLine);

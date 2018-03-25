@@ -18,6 +18,8 @@ public class CourseOffering {
     public CourseOffering(CsvModel csvModel) {
         this.semester = Integer.parseInt(csvModel.getSemester());
         this.location = csvModel.getLocation();
+        this.listOfInstructor = new ArrayList<>();
+        this.listOfCourseSection = new ArrayList<>();
 //        StringTokenizer stringTokenizer = new StringTokenizer(csvModel.getInstructors());
 //        while (stringTokenizer.hasMoreTokens()){
 //            this.listOfInstructor.add(stringTokenizer.nextToken());
@@ -54,5 +56,9 @@ public class CourseOffering {
 
     public void setListOfCourseSection(ArrayList<CourseSection> listOfCourseSection) {
         this.listOfCourseSection = listOfCourseSection;
+    }
+
+    public void addCourseSection(CourseSection courseSection){
+        this.listOfCourseSection.add(courseSection);
     }
 }
