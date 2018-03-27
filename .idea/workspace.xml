@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1add1cf0-200d-423a-b18d-735de82f3891" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/controllers/ModelDumpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/controllers/ModelDumpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/models/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/models/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/models/CourseModelConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/models/CourseModelConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/models/CourseOffering.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/models/CourseOffering.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/models/CsvModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/models/CsvModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/models/CsvProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ca/courseplanner/models/CsvProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/courseplanner/controllers/ModelDumpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/courseplanner/controllers/ModelDumpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseModelConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseModelConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseOffering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseOffering.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvProcessor.java" afterDir="false" />
-    </list>
+    <list default="true" id="1add1cf0-200d-423a-b18d-735de82f3891" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -102,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Department.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Department.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -191,11 +175,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseModelConverter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CourseModelConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseModelConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+            <state relative-caret-position="15">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
@@ -565,8 +549,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseSection.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/courseplanner/controllers/ModelDumpController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseModelConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Department.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseModelConverter.java" />
       </list>
     </option>
   </component>
@@ -766,16 +750,15 @@
       <workItem from="1521701502889" duration="8373000" />
       <workItem from="1522007084311" duration="123000" />
       <workItem from="1522007246966" duration="8245000" />
-      <workItem from="1522181282480" duration="9553000" />
+      <workItem from="1522181282480" duration="9788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26294000" />
+    <option name="totallyTimeSpent" value="26529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="736" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -786,7 +769,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" weight="0.329582" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32943144" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -1189,6 +1172,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseOffering.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1234,12 +1227,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseModelConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        <state relative-caret-position="15">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1259,20 +1256,6 @@
             <element signature="e#588#589#0" expanded="true" />
             <element signature="e#684#685#0" expanded="true" />
             <element signature="e#703#704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseModelConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
           </folding>
         </state>
       </provider>
