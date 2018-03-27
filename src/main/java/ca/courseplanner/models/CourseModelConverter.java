@@ -29,13 +29,12 @@ public class CourseModelConverter {
     private void convertModel(ArrayList<CsvModel> listOfCsvModel) {
         ArrayList<String> listOfDepartmentName = new ArrayList<>();
         ArrayList<Department> listOfDepartment = new ArrayList<>();
-        for (CsvModel currentModel : listOfCsvModel){
+        for (CsvModel currentModel : listOfCsvModel) {
 //            Department newModel = new Department(currentModel);
 //            listOfDepartment.add(newModel);
             listOfDepartmentName.add(currentModel.getDepartment());
         }
 
-<<<<<<< HEAD
         convertModel = removeDuplicateSubjectCatalogNumber(convertModel);
 
         for (Course currentCourse: convertModel){
@@ -59,7 +58,7 @@ public class CourseModelConverter {
                     }
                 }
             }
-=======
+
         listOfDepartmentName = removeDuplicateDepartment(listOfDepartmentName);
 
         for (String currentDepartmentName:listOfDepartmentName){
@@ -147,7 +146,6 @@ public class CourseModelConverter {
             addCourse(currentModel, currentDepartment, newCourse, newOffering, newSection);
         } else {
             addCourseOfferingToCourse(currentModel, newOffering, newSection, findCourse);
->>>>>>> origin/master
         }
     }
 
