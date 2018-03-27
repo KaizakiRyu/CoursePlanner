@@ -36,13 +36,20 @@ public class CourseModelConverter {
                 if (currentCourse.getSubject().equals(currentModel.getSubject()) && currentCourse.getCatalogNumber().equals(currentModel.getCatalogNumber())) {
                     CourseOffering courseOffering = new CourseOffering(currentModel);
                     CourseOffering currentCourseOffering = currentCourse.findCourseOffering(courseOffering);
+                    CourseSection courseSection = new CourseSection(currentModel);
+                    CourseSection currentCourseSection = currentCourseOffering.findCourseSection(courseSection);
                     if (currentCourseOffering != null) {
                         currentCourseOffering.addInstructor(currentModel.getInstructors());
                     } else {
+                        currentCourseOffering = courseOffering;
                         currentCourse.addCourseOffering(courseOffering);
                     }
-                    CourseSection courseSection = new CourseSection(currentModel);
-                    CourseSection currentCourseSection = currentCourseOffering.findCourseSection(courseSection);
+                    
+                    if (currentCourseSection != null){
+
+                    } else {
+                        currentCourseOffering.addCourseSection(currentCourseSection);
+                    }
                 }
             }
         }
