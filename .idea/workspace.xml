@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1add1cf0-200d-423a-b18d-735de82f3891" name="Default" comment="" />
+    <list default="true" id="1add1cf0-200d-423a-b18d-735de82f3891" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,8 +28,8 @@
       <file leaf-file-name="ModelDumpController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/controllers/ModelDumpController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,8 +40,8 @@
       <file leaf-file-name="CsvProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="533">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="101" column="43" lean-forward="true" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
+              <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1574#1575#0" expanded="true" />
@@ -87,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="926">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#484#485#0" expanded="true" />
                 <element signature="e#514#515#0" expanded="true" />
@@ -113,8 +119,8 @@
       <file leaf-file-name="CourseOffering.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseOffering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="60" column="63" lean-forward="false" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
+            <state relative-caret-position="581">
+              <caret line="60" column="63" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#944#945#0" expanded="true" />
@@ -140,8 +146,8 @@
       <file leaf-file-name="CourseSection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseSection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            <state relative-caret-position="375">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
               <folding>
                 <element signature="e#543#544#0" expanded="true" />
                 <element signature="e#579#580#0" expanded="true" />
@@ -158,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseModelConverter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CourseModelConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseModelConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="44" column="112" lean-forward="true" selection-start-line="44" selection-start-column="112" selection-end-line="44" selection-end-column="112" />
+            <state relative-caret-position="660">
+              <caret line="44" column="112" selection-start-line="44" selection-start-column="112" selection-end-line="44" selection-end-column="112" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
@@ -191,7 +197,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Program Files\Gradle\gradle-4.6" />
+        <entry key="$PROJECT_DIR$" value="$PROJECT_DIR$/../../gradle-4.6" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -385,7 +391,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3043403045279" />
+        <entry key="$PROJECT_DIR$" value="4566541013000" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3238635734" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="791424937" />
       </map>
@@ -423,81 +430,81 @@
               <option name="name" value="CoursePlanner" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/ant-1.9.9.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/ant-launcher-1.9.9.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-base-services-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-base-services-groovy-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-build-cache-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-build-option-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-cli-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-core-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-core-api-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-docs-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-installation-beacon-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-jvm-services-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-kotlin-dsl-0.15.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-kotlin-dsl-tooling-builders-0.15.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-kotlin-dsl-tooling-models-0.15.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-launcher-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-logging-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-messaging-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-model-core-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-model-groovy-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-native-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-persistent-cache-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-process-services-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-resources-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-runtime-api-info-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-tooling-api-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/gradle-wrapper-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/groovy-all-2.4.12.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-announce-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-antlr-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-build-cache-http-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-build-comparison-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-build-init-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-code-quality-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-composite-builds-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-dependency-management-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-diagnostics-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-ear-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-ide-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-ide-native-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-ide-play-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-ivy-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-jacoco-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-javascript-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-language-groovy-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-language-java-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-language-jvm-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-language-native-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-language-scala-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-maven-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-osgi-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-platform-base-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-platform-jvm-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-platform-native-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-platform-play-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-plugin-development-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-plugin-use-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-plugins-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-publish-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-reporting-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-resources-gcs-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-resources-http-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-resources-s3-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-resources-sftp-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-scala-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-signing-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-test-kit-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-testing-base-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-testing-junit-platform-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-testing-jvm-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-testing-native-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-tooling-api-builders-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-version-control-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/gradle-workers-4.6.jar" />
-                  <option value="C:/Program Files/Gradle/gradle-4.6/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-build-cache-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-model-core-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-model-groovy-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-build-option-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-docs-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-wrapper-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-process-services-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-installation-beacon-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-kotlin-dsl-tooling-builders-0.15.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-core-api-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-native-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/ant-launcher-1.9.9.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/groovy-all-2.4.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-launcher-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-core-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-messaging-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-tooling-api-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-logging-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/ant-1.9.9.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-kotlin-dsl-0.15.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-base-services-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-runtime-api-info-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-kotlin-dsl-tooling-models-0.15.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-cli-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-persistent-cache-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-base-services-groovy-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-jvm-services-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/gradle-resources-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-resources-s3-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-build-init-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-scala-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-plugin-use-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-plugins-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-composite-builds-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-maven-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-publish-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-test-kit-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-language-jvm-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-testing-native-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-resources-gcs-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-ide-play-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-build-cache-http-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-platform-base-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-version-control-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-platform-native-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-tooling-api-builders-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-workers-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-dependency-management-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-antlr-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-code-quality-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-language-groovy-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-jacoco-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-ide-native-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-language-native-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-ide-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-build-comparison-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-reporting-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-platform-play-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-ivy-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-signing-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-plugin-development-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-diagnostics-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-testing-base-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-announce-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-resources-http-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-testing-junit-platform-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-javascript-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-language-scala-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-ear-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-testing-jvm-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-platform-jvm-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-resources-sftp-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-osgi-4.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-4.6/lib/plugins/gradle-language-java-4.6.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -506,9 +513,6 @@
           </value>
         </entry>
       </map>
-    </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
     </option>
     <option name="projectSyncType">
       <map>
@@ -554,24 +558,12 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -632,14 +624,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/GitHubDesktop.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -655,48 +648,23 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="ca.courseplanner.Application" />
+      <module name="CoursePlanner_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ca.courseplanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ca.courseplanner.Application" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CoursePlanner_main" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -706,24 +674,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -736,17 +693,21 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -755,8 +716,8 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+      <list>
+        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -765,9 +726,6 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -782,49 +740,50 @@
       <workItem from="1521701502889" duration="8373000" />
       <workItem from="1522007084311" duration="123000" />
       <workItem from="1522007246966" duration="8245000" />
+      <workItem from="1522181282480" duration="470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16741000" />
+    <option name="totallyTimeSpent" value="17211000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49791667" weight="0.32979852" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" weight="0.32979852" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979852" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22913617" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.329582" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49583334" weight="0.32979852" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info id="Web" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -833,155 +792,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1881#1882#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/controllers/ModelDumpController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseBySubjectCatalogNumberSemesterLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/ClassSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1881#1882#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/controllers/ModelDumpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/ClassSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseBySubjectCatalogNumberSemesterLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/course_data_2016.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1881#1882#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/ClassSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseBySubjectCatalogNumberSemesterLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="66" lean-forward="false" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/controllers/ModelDumpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="195">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -990,8 +805,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1000,7 +815,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="1035">
           <caret line="101" column="43" lean-forward="true" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1042,8 +857,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="795">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#484#485#0" expanded="true" />
             <element signature="e#514#515#0" expanded="true" />
@@ -1061,29 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseSection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseOffering.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="60" column="63" lean-forward="false" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
+        <state relative-caret-position="630">
+          <caret line="60" column="63" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#944#945#0" expanded="true" />
@@ -1105,9 +901,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseSection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseModelConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="540">
           <caret line="44" column="112" lean-forward="true" selection-start-line="44" selection-start-column="112" selection-end-line="44" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1117,6 +932,272 @@
             <element signature="e#428#429#0" expanded="true" />
             <element signature="e#498#499#0" expanded="true" />
             <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/controllers/ModelDumpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseBySubjectCatalogNumberSemesterLocation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/ClassSession.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/controllers/ModelDumpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/ClassSession.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseBySubjectCatalogNumberSemesterLocation.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/course_data_2016.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/ClassSession.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseBySubjectCatalogNumberSemesterLocation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseSection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseModelConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="112" selection-start-line="44" selection-start-column="112" selection-end-line="44" selection-end-column="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CourseOffering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="60" column="63" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1818#1819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/controllers/ModelDumpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/CsvModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1841#1842#0" expanded="true" />
+            <element signature="e#1881#1882#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="e#2329#2330#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2428#2429#0" expanded="true" />
+            <element signature="e#2465#2466#0" expanded="true" />
+            <element signature="e#2525#2526#0" expanded="true" />
+            <element signature="e#2577#2578#0" expanded="true" />
+            <element signature="e#2615#2616#0" expanded="true" />
+            <element signature="e#2649#2650#0" expanded="true" />
+            <element signature="e#2703#2704#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
+            <element signature="e#2789#2790#0" expanded="true" />
+            <element signature="e#2825#2826#0" expanded="true" />
+            <element signature="e#2883#2884#0" expanded="true" />
+            <element signature="e#2933#2934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/courseplanner/models/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="926">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
           </folding>
         </state>
       </provider>
