@@ -11,8 +11,8 @@ public class CourseSection {
 
     public CourseSection(CsvModel csvModel) {
         this.componentCode = csvModel.getComponentCode();
-        this.enrolmentCapacity = Integer.parseInt(csvModel.getEnrolmentCapacity());
-        this.enrolmentTotal = Integer.parseInt(csvModel.getEnrolmentTotal());
+        this.enrolmentCapacity = Integer.valueOf(csvModel.getEnrolmentCapacity()).intValue();
+        this.enrolmentTotal = Integer.valueOf(csvModel.getEnrolmentTotal()).intValue();
     }
 
     public String getComponentCode() {

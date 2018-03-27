@@ -6,23 +6,14 @@ import java.util.ArrayList;
  * Created by leom on 23/03/18.
  */
 public class Course {
-    private String subject;
     private String catalogNumber;
     private ArrayList<CourseOffering> listOfCourseOffering;
 
     public Course(CsvModel csvModel) {
-        this.subject = csvModel.getSubject();
         this.catalogNumber = csvModel.getCatalogNumber();
         this.listOfCourseOffering = new ArrayList<>();
     }
 
-    public String getSubject() {
-        return subject;
-    }
-
-    public void setSubject(String subject) {
-        this.subject = subject;
-    }
 
     public String getCatalogNumber() {
         return catalogNumber;
@@ -63,6 +54,6 @@ public class Course {
         }
         return null;
     }
-    
+
 }
 
