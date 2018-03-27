@@ -35,6 +35,31 @@ public class CourseModelConverter {
             listOfDepartmentName.add(currentModel.getDepartment());
         }
 
+<<<<<<< HEAD
+        convertModel = removeDuplicateSubjectCatalogNumber(convertModel);
+
+        for (Course currentCourse: convertModel){
+            for (CsvModel currentModel : listOfCsvModel){
+                if (currentCourse.getSubject().equals(currentModel.getSubject()) && currentCourse.getCatalogNumber().equals(currentModel.getCatalogNumber())) {
+                    CourseOffering courseOffering = new CourseOffering(currentModel);
+                    CourseOffering currentCourseOffering = currentCourse.findCourseOffering(courseOffering);
+                    CourseSection courseSection = new CourseSection(currentModel);
+                    CourseSection currentCourseSection = currentCourseOffering.findCourseSection(courseSection);
+                    if (currentCourseOffering != null) {
+                        currentCourseOffering.addInstructor(currentModel.getInstructors());
+                    } else {
+                        currentCourseOffering = courseOffering;
+                        currentCourse.addCourseOffering(courseOffering);
+                    }
+
+                    if (currentCourseSection != null){
+
+                    } else {
+                        currentCourseOffering.addCourseSection(currentCourseSection);
+                    }
+                }
+            }
+=======
         listOfDepartmentName = removeDuplicateDepartment(listOfDepartmentName);
 
         for (String currentDepartmentName:listOfDepartmentName){
@@ -122,6 +147,7 @@ public class CourseModelConverter {
             addCourse(currentModel, currentDepartment, newCourse, newOffering, newSection);
         } else {
             addCourseOfferingToCourse(currentModel, newOffering, newSection, findCourse);
+>>>>>>> origin/master
         }
     }
 
