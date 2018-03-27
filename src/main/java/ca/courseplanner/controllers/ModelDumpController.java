@@ -9,13 +9,20 @@ import java.util.ArrayList;
 @RestController
 public class ModelDumpController {
     private ArrayList<Course> listOfCourse = new ArrayList<>();
+    private ArrayList<Department> listOfDepartment = new ArrayList<>();
 
     @GetMapping("/dump-model")
-    public ArrayList<Course> getDumpModel(){
+    public ArrayList<Department> getDumpModel(){
         CsvProcessor csvProcessor = new CsvProcessor();
-        CourseModelConverter courseModelConverter = new CourseModelConverter();
         ArrayList<CsvModel> listOfCsvModel = csvProcessor.startProcessor();
-        return listOfCourse;
+        listOfCsvModel.remove(0);
+        CourseModelConverter courseModelConverter = new CourseModelConverter();
+        courseModelConverter.startConversion(listOfCsvModel);
+        ArrayList<Department> listOfDepartment = courseModelConverter.getListOfConvertedModel();
+        this.listOfDepartment.addAll(listOfDepartment);
+//        for (Department currentDepartment:listOfDepartment){
+//            System.out.println(currentDepartment.getDepartment());
+//        }
+        return listOfDepartment;
     }
-
 }

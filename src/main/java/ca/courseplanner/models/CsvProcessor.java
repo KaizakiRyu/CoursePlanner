@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class CsvProcessor {
     private ArrayList<CsvModel> listOfCourse = new ArrayList<>();
-    private final String CSV_PATH = "data/course_data_2018.csv";
+    private final String CSV_PATH = "data/course_data_2016.csv";
     private static final char SEPARATOR = ',';
     private static final char QUOTE = '"';
     private static final char END_LINE = '\n';
@@ -21,7 +21,7 @@ public class CsvProcessor {
 
     public ArrayList<CsvModel> startProcessor(){
         parseCSVFile();
-        printCourse();
+//        printCourse();
         return listOfCourse;
     }
 
@@ -77,7 +77,7 @@ public class CsvProcessor {
 
     private void printCourse(){
         for (CsvModel currentCourse : listOfCourse){
-            System.out.println(currentCourse.getSemester() + " " + currentCourse.getSubject() + " " + currentCourse.getCatalogNumber() + " "
+            System.out.println(currentCourse.getSemester() + " " + currentCourse.getDepartment() + " " + currentCourse.getCatalogNumber() + " "
                     + currentCourse.getLocation() + " " + currentCourse.getEnrolmentCapacity() + " " + currentCourse.getEnrolmentTotal() + " "
                     + currentCourse.getInstructors() + " " + currentCourse.getComponentCode());
         }

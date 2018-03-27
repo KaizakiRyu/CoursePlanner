@@ -16,7 +16,7 @@ public class CourseOffering {
     private ArrayList<CourseSection> listOfCourseSection;
 
     public CourseOffering(CsvModel csvModel) {
-        this.semester = Integer.parseInt(csvModel.getSemester());
+        this.semester = Integer.valueOf(csvModel.getSemester()).intValue();
         this.location = csvModel.getLocation();
         this.listOfInstructor = new ArrayList<>();
         this.listOfCourseSection = new ArrayList<>();
@@ -73,7 +73,7 @@ public class CourseOffering {
     public CourseSection findCourseSection (CourseSection courseSection){
         ArrayList<CourseSection> listOfCourseOffering = getListOfCourseSection();
         for (CourseSection currentSection : listOfCourseOffering) {
-            if (currentSection.getComponentCode() == courseSection.getComponentCode()) {
+            if (currentSection.getComponentCode().equals(courseSection.getComponentCode())) {
                 return currentSection;
             }
         }

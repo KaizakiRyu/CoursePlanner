@@ -1,14 +1,13 @@
 package ca.courseplanner.models;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 
 /**
  * Created by leom on 23/03/18.
  */
 public class CsvModel {
     private String semester;
-    private String subject;
+    private String department;
     private String catalogNumber;
     private String location;
     private String enrolmentCapacity;
@@ -28,12 +27,12 @@ public class CsvModel {
     }
 
     public CsvModel(ArrayList<String> currentLine) {
-        this.semester = currentLine.get(SEMESTER_INDEX).trim().toUpperCase();
-        this.subject = currentLine.get(SUBJECT_INDEX).trim().toUpperCase();
-        this.catalogNumber = currentLine.get(CATALOG_NUMBER_INDEX).trim().toUpperCase();
+        this.semester = currentLine.get(SEMESTER_INDEX).trim();
+        this.department = currentLine.get(SUBJECT_INDEX).trim().toUpperCase();
+        this.catalogNumber = currentLine.get(CATALOG_NUMBER_INDEX).trim();
         this.location = currentLine.get(LOCATION_INDEX).trim().toUpperCase();
-        this.enrolmentCapacity = currentLine.get(ENROLMENT_CAPACITY_INDEX).trim().toUpperCase();
-        this.enrolmentTotal = currentLine.get(ENROLMENT_TOTAL_INDEX).trim().toUpperCase();
+        this.enrolmentCapacity = currentLine.get(ENROLMENT_CAPACITY_INDEX).trim();
+        this.enrolmentTotal = currentLine.get(ENROLMENT_TOTAL_INDEX).trim();
         this.instructors = currentLine.get(INSTRUCTORS_INDEX).trim();
         this.componentCode = currentLine.get(COMPONENT_CODE_INDEX).trim().toUpperCase();
     }
@@ -46,12 +45,12 @@ public class CsvModel {
         this.semester = semester;
     }
 
-    public String getSubject() {
-        return subject;
+    public String getDepartment() {
+        return department;
     }
 
-    public void setSubject(String subject) {
-        this.subject = subject;
+    public void setDepartment(String department) {
+        this.department = department;
     }
 
     public String getCatalogNumber() {
@@ -105,7 +104,7 @@ public class CsvModel {
 //    public static Comparator<CsvModel> SubjectCatalogNumberSemesterLocationComparator = new Comparator<CsvModel>() {
 //        @Override
 //        public int compare(CsvModel csvCourseFormat1, CsvModel csvCourseFormat2) {
-//            int subjectCompare = csvCourseFormat1.subject.compareTo(csvCourseFormat2.subject);
+//            int subjectCompare = csvCourseFormat1.department.compareTo(csvCourseFormat2.department);
 //            if (subjectCompare == 0) {
 //                int catalogCompare = csvCourseFormat1.catalogNumber.compareTo(csvCourseFormat2.catalogNumber);
 //                if (catalogCompare == 0) {
