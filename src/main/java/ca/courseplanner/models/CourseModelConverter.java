@@ -44,7 +44,7 @@ public class CourseModelConverter {
                         currentCourseOffering = courseOffering;
                         currentCourse.addCourseOffering(courseOffering);
                     }
-                    
+
                     if (currentCourseSection != null){
 
                     } else {
