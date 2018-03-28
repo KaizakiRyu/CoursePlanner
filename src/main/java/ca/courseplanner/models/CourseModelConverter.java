@@ -1,5 +1,6 @@
 package ca.courseplanner.models;
 
+import java.io.*;
 import java.util.*;
 
 /**
@@ -8,6 +9,7 @@ import java.util.*;
 public class CourseModelConverter {
     ArrayList<Department> convertedModel;
     private final String INDENTATION = "        ";
+    private final String OUTPUT_FILE = "data/output_dump.txt";
 
     public ArrayList<Department> getConvertedModel() {
         return convertedModel;
@@ -19,22 +21,21 @@ public class CourseModelConverter {
 
     public void startConversion(ArrayList<CsvModel> listOfCsvModel){
         convertModel(listOfCsvModel);
+        sortModel();
 //        ArrayList<Department> listOfDepartment = getConvertedModel();
         printConvertedModel();
+        printToTextFile();
     }
 
     private void printConvertedModel() {
         ArrayList<Department> convertedModel = getConvertedModel();
-        Collections.sort(convertedModel, Department.DepartmentComparator);
         for (Department currentDepartment:convertedModel){
-            System.out.println(currentDepartment.getDepartment());
             ArrayList<Course> listOfCourse = currentDepartment.getListOfCourses();
-            Collections.sort(listOfCourse, Course.CourseNumberComparator);
             for (Course currentCourse : listOfCourse){
-                System.out.println(INDENTATION + currentCourse.getCourseNumber());
+                System.out.println(currentDepartment.getDepartment() + " " + currentCourse.getCourseNumber());
                 ArrayList<CourseOffering> listOfCourseOffering = currentCourse.getListOfCourseOffering();
                 for (CourseOffering currentOffering : listOfCourseOffering){
-                    System.out.print(INDENTATION + currentOffering.getSemester() + " " + currentOffering.getLocation() + " ");
+                    System.out.print(INDENTATION + currentOffering.getSemester() + " in " + currentOffering.getLocation() + " by ");
                     ArrayList<String> listOfInstructors = currentOffering.getListOfInstructor();
                     for (String currentInstructor : listOfInstructors){
                         System.out.print(currentInstructor + " ");
@@ -42,13 +43,69 @@ public class CourseModelConverter {
                     System.out.println();
                     ArrayList<CourseSection> listOfCourseSection = currentOffering.getListOfCourseSection();
                     for (CourseSection currentSection : listOfCourseSection){
-
+                        System.out.println(INDENTATION + INDENTATION + "Type=" + currentSection.getComponentCode() +
+                                            ", Enrolment=" + currentSection.getEnrolmentTotal() +
+                                            "/" + currentSection.getEnrolmentCapacity());
                     }
-
                 }
-                System.out.println();
             }
-            System.out.println();
+        }
+    }
+
+    private void printToTextFile(){
+        ArrayList<Department> convertedModel = getConvertedModel();
+        if(convertedModel.isEmpty() || convertedModel.size() == 0){
+            return;
+        }
+        try{
+            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(OUTPUT_FILE), "UTF-8"));
+            for (Department currentDepartment:convertedModel){
+                ArrayList<Course> listOfCourse = currentDepartment.getListOfCourses();
+                for (Course currentCourse : listOfCourse){
+                    writer.write(currentDepartment.getDepartment() + " " + currentCourse.getCourseNumber());
+                    writer.newLine();
+                    ArrayList<CourseOffering> listOfCourseOffering = currentCourse.getListOfCourseOffering();
+                    for (CourseOffering currentOffering : listOfCourseOffering){
+                        StringBuffer outputLine = new StringBuffer();
+                        outputLine.append(INDENTATION + currentOffering.getSemester() + " in " + currentOffering.getLocation() + " by ");
+                        ArrayList<String> listOfInstructors = currentOffering.getListOfInstructor();
+                        for (String currentInstructor : listOfInstructors){
+                            outputLine.append(currentInstructor + " ");
+                        }
+                        writer.write(outputLine.toString());
+                        writer.newLine();
+                        ArrayList<CourseSection> listOfCourseSection = currentOffering.getListOfCourseSection();
+                        for (CourseSection currentSection : listOfCourseSection){
+                            writer.write(INDENTATION + INDENTATION + "Type=" + currentSection.getComponentCode() +
+                                    ", Enrolment=" + currentSection.getEnrolmentTotal() +
+                                    "/" + currentSection.getEnrolmentCapacity());
+                            writer.newLine();
+                        }
+                    }
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void sortModel(){
+        ArrayList<Department> convertedModel = getConvertedModel();
+        if(convertedModel.isEmpty() || convertedModel.size() == 0){
+            return;
+        }
+        Collections.sort(convertedModel, Department.DepartmentComparator);
+        for (Department currentDepartment:convertedModel){
+            ArrayList<Course> listOfCourse = currentDepartment.getListOfCourses();
+            Collections.sort(listOfCourse, Course.CourseNumberComparator);
+            for (Course currentCourse : listOfCourse){
+                ArrayList<CourseOffering> listOfCourseOffering = currentCourse.getListOfCourseOffering();
+                Collections.sort(listOfCourseOffering, CourseOffering.CourseOfferingComparator);
+                for (CourseOffering currentOffering : listOfCourseOffering){
+                    ArrayList<CourseSection> listOfCourseSection = currentOffering.getListOfCourseSection();
+                    Collections.sort(listOfCourseSection, CourseSection.CourseSectionComparator);
+                }
+            }
         }
     }
 

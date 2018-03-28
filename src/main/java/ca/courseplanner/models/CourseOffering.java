@@ -4,6 +4,7 @@ import ca.courseplanner.models.CourseSection;
 import ca.courseplanner.models.CsvModel;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.StringTokenizer;
 
 /**
@@ -15,6 +16,7 @@ public class CourseOffering {
     private String location;
     private ArrayList<String> listOfInstructor;
     private ArrayList<CourseSection> listOfCourseSection;
+    private final String nullInstructor = "(null)";
 
     public CourseOffering(CsvModel csvModel) {
         this.semester = Integer.valueOf(csvModel.getSemester()).intValue();
@@ -67,7 +69,7 @@ public class CourseOffering {
         StringTokenizer stringTokenizer = new StringTokenizer(instructors);
         while (stringTokenizer.hasMoreTokens()){
             String currentInstructor = stringTokenizer.nextToken();
-            if (!listOfInstructor.contains(currentInstructor)) {
+            if (!listOfInstructor.contains(currentInstructor) && (!currentInstructor.equals(nullInstructor))) {
                 this.listOfInstructor.add(currentInstructor);
             }
         }
@@ -82,5 +84,17 @@ public class CourseOffering {
         }
         return null;
     }
+
+    public static Comparator<CourseOffering> CourseOfferingComparator = new Comparator<CourseOffering>() {
+        @Override
+        public int compare(CourseOffering courseOffering1, CourseOffering courseOffering2) {
+            int semesterCompare = courseOffering1.getSemester() - courseOffering2.getSemester();
+            if(semesterCompare == 0){
+                return courseOffering1.getLocation().compareTo(courseOffering2.getLocation());
+            } else {
+                return semesterCompare;
+            }
+        }
+    };
 
 }
