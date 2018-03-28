@@ -1,8 +1,6 @@
 package ca.courseplanner.models;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by leom on 23/03/18.
@@ -20,9 +18,22 @@ public class CourseModelConverter {
 
     public void startConversion(ArrayList<CsvModel> listOfCsvModel){
         convertModel(listOfCsvModel);
+//        ArrayList<Department> listOfDepartment = getListOfConvertedModel();
+        printListOfDepartment();
+    }
+
+    private void printListOfDepartment() {
         ArrayList<Department> listOfDepartment = getListOfConvertedModel();
         for (Department currentDepartment:listOfDepartment){
+
             System.out.println(currentDepartment.getDepartment());
+            ArrayList<Course> listOfCourse = currentDepartment.getListOfCourses();
+            Collections.sort(listOfCourse, Course.CourseNumberComparator);
+            for (Course currentCourse : listOfCourse){
+                System.out.println("        " + currentCourse.getCourseNumber());
+                System.out.println();
+            }
+            System.out.println();
         }
     }
 
@@ -30,8 +41,6 @@ public class CourseModelConverter {
         ArrayList<String> listOfDepartmentName = new ArrayList<>();
         ArrayList<Department> listOfDepartment = new ArrayList<>();
         for (CsvModel currentModel : listOfCsvModel){
-//            Department newModel = new Department(currentModel);
-//            listOfDepartment.add(newModel);
             listOfDepartmentName.add(currentModel.getDepartment());
         }
 
@@ -41,23 +50,22 @@ public class CourseModelConverter {
             Department newModel = new Department(currentDepartmentName);
             listOfDepartment.add(newModel);
         }
-//        listOfDepartment = removeDuplicateDepartment(listOfDepartment);
 
-//        for (CsvModel currentModel:listOfCsvModel){
-//            for (Department currentDepartment:listOfDepartment){
-//                // if found department
-//                if (currentModel.getDepartment().equals(currentDepartment.getDepartment())){
-//                    addCourseToDepartment(currentModel, currentDepartment);
-//                }
-//            }
-//        }
+        for (CsvModel currentModel:listOfCsvModel){
+            for (Department currentDepartment:listOfDepartment){
+                // if found department
+                if (currentModel.getDepartment().equals(currentDepartment.getDepartment())){
+                    addCourseToDepartment(currentModel, currentDepartment);
+                }
+            }
+        }
 
         listOfConvertedModel.addAll(listOfDepartment);
 
 
 //        for (Course currentCourse: convertModel){
 //            for (CsvModel currentModel : listOfCsvModel){
-//                if (currentCourse.getSubject().equals(currentModel.getDepartment()) && currentCourse.getCatalogNumber().equals(currentModel.getCatalogNumber())) {
+//                if (currentCourse.getSubject().equals(currentModel.getDepartment()) && currentCourse.getCourseNumber().equals(currentModel.getCourseNumber())) {
 //                    CourseOffering courseOffering = new CourseOffering(currentModel);
 //                    CourseOffering currentCourseOffering = currentCourse.findCourseOffering(courseOffering);
 //                    if (currentCourseOffering != null) {
@@ -108,7 +116,6 @@ public class CourseModelConverter {
 //                }
 //            }
 //        }
-
     }
 
     private void addCourseToDepartment(CsvModel currentModel, Department currentDepartment) {
@@ -177,7 +184,7 @@ public class CourseModelConverter {
 //    public boolean findCourse(CsvModel csvModel){
 //        ArrayList<Course> listOfCourse = getListOfConvertedModel();
 //        for (Course currentModel : listOfCourse){
-//            if (currentModel.getSubject().equals(csvModel.getDepartment()) && currentModel.getCatalogNumber().equals(csvModel.getDepartment())){
+//            if (currentModel.getSubject().equals(csvModel.getDepartment()) && currentModel.getCourseNumber().equals(csvModel.getDepartment())){
 //                return true;
 //            }
 //        }

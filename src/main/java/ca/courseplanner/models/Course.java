@@ -1,26 +1,27 @@
 package ca.courseplanner.models;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 /**
  * Created by leom on 23/03/18.
  */
 public class Course {
-    private String catalogNumber;
+    private String courseNumber;
     private ArrayList<CourseOffering> listOfCourseOffering;
 
     public Course(CsvModel csvModel) {
-        this.catalogNumber = csvModel.getCatalogNumber();
+        this.courseNumber = csvModel.getCatalogNumber();
         this.listOfCourseOffering = new ArrayList<>();
     }
 
 
-    public String getCatalogNumber() {
-        return catalogNumber;
+    public String getCourseNumber() {
+        return courseNumber;
     }
 
-    public void setCatalogNumber(String catalogNumber) {
-        this.catalogNumber = catalogNumber;
+    public void setCourseNumber(String courseNumber) {
+        this.courseNumber = courseNumber;
     }
 
     public ArrayList<CourseOffering> getListOfCourseOffering() {
@@ -54,6 +55,13 @@ public class Course {
         }
         return null;
     }
+
+    public static Comparator<Course> CourseNumberComparator = new Comparator<Course>() {
+        @Override
+        public int compare(Course course1, Course course2) {
+            return course1.getCourseNumber().compareTo(course2.getCourseNumber());
+        }
+    };
 
 }
 

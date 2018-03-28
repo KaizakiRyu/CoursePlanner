@@ -35,7 +35,7 @@ public class Department {
     public Course findCourse(Course course){
         ArrayList<Course> listOfCourses = getListOfCourses();
         for (Course currentCourse : listOfCourses){
-            if(currentCourse.getCatalogNumber() == course.getCatalogNumber()){
+            if(currentCourse.getCourseNumber().equals(course.getCourseNumber())){
                 return currentCourse;
             }
         }

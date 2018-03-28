@@ -66,7 +66,9 @@ public class CourseOffering {
         StringTokenizer stringTokenizer = new StringTokenizer(instructors);
         while (stringTokenizer.hasMoreTokens()){
             String currentInstructor = stringTokenizer.nextToken();
-            this.listOfInstructor.add(currentInstructor);
+            if (!listOfInstructor.contains(currentInstructor)) {
+                this.listOfInstructor.add(currentInstructor);
+            }
         }
     }
 
