@@ -10,6 +10,7 @@ import java.util.StringTokenizer;
  * Created by leom on 23/03/18.
  */
 public class CourseOffering {
+    private long courseOfferingId;
     private int semester;
     private String location;
     private ArrayList<String> listOfInstructor;

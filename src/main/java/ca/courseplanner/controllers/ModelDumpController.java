@@ -18,7 +18,7 @@ public class ModelDumpController {
         listOfCsvModel.remove(0);
         CourseModelConverter courseModelConverter = new CourseModelConverter();
         courseModelConverter.startConversion(listOfCsvModel);
-        ArrayList<Department> listOfDepartment = courseModelConverter.getListOfConvertedModel();
+        ArrayList<Department> listOfDepartment = courseModelConverter.getConvertedModel();
         this.listOfDepartment.addAll(listOfDepartment);
 //        for (Department currentDepartment:listOfDepartment){
 //            System.out.println(currentDepartment.getDepartment());

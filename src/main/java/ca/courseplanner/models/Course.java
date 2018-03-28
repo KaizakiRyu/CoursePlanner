@@ -7,6 +7,7 @@ import java.util.Comparator;
  * Created by leom on 23/03/18.
  */
 public class Course {
+    private long courseId;
     private String courseNumber;
     private ArrayList<CourseOffering> listOfCourseOffering;
 

@@ -6,31 +6,46 @@ import java.util.*;
  * Created by leom on 23/03/18.
  */
 public class CourseModelConverter {
-    ArrayList<Department> listOfConvertedModel;
+    ArrayList<Department> convertedModel;
+    private final String INDENTATION = "        ";
 
-    public ArrayList<Department> getListOfConvertedModel() {
-        return listOfConvertedModel;
+    public ArrayList<Department> getConvertedModel() {
+        return convertedModel;
     }
 
     public CourseModelConverter() {
-        this.listOfConvertedModel = new ArrayList<>();
+        this.convertedModel = new ArrayList<>();
     }
 
     public void startConversion(ArrayList<CsvModel> listOfCsvModel){
         convertModel(listOfCsvModel);
-//        ArrayList<Department> listOfDepartment = getListOfConvertedModel();
-        printListOfDepartment();
+//        ArrayList<Department> listOfDepartment = getConvertedModel();
+        printConvertedModel();
     }
 
-    private void printListOfDepartment() {
-        ArrayList<Department> listOfDepartment = getListOfConvertedModel();
-        for (Department currentDepartment:listOfDepartment){
-
+    private void printConvertedModel() {
+        ArrayList<Department> convertedModel = getConvertedModel();
+        Collections.sort(convertedModel, Department.DepartmentComparator);
+        for (Department currentDepartment:convertedModel){
             System.out.println(currentDepartment.getDepartment());
             ArrayList<Course> listOfCourse = currentDepartment.getListOfCourses();
             Collections.sort(listOfCourse, Course.CourseNumberComparator);
             for (Course currentCourse : listOfCourse){
-                System.out.println("        " + currentCourse.getCourseNumber());
+                System.out.println(INDENTATION + currentCourse.getCourseNumber());
+                ArrayList<CourseOffering> listOfCourseOffering = currentCourse.getListOfCourseOffering();
+                for (CourseOffering currentOffering : listOfCourseOffering){
+                    System.out.print(INDENTATION + currentOffering.getSemester() + " " + currentOffering.getLocation() + " ");
+                    ArrayList<String> listOfInstructors = currentOffering.getListOfInstructor();
+                    for (String currentInstructor : listOfInstructors){
+                        System.out.print(currentInstructor + " ");
+                    }
+                    System.out.println();
+                    ArrayList<CourseSection> listOfCourseSection = currentOffering.getListOfCourseSection();
+                    for (CourseSection currentSection : listOfCourseSection){
+
+                    }
+
+                }
                 System.out.println();
             }
             System.out.println();
@@ -60,7 +75,7 @@ public class CourseModelConverter {
             }
         }
 
-        listOfConvertedModel.addAll(listOfDepartment);
+        convertedModel.addAll(listOfDepartment);
 
 
 //        for (Course currentCourse: convertModel){
@@ -182,7 +197,7 @@ public class CourseModelConverter {
     }
 
 //    public boolean findCourse(CsvModel csvModel){
-//        ArrayList<Course> listOfCourse = getListOfConvertedModel();
+//        ArrayList<Course> listOfCourse = getConvertedModel();
 //        for (Course currentModel : listOfCourse){
 //            if (currentModel.getSubject().equals(csvModel.getDepartment()) && currentModel.getCourseNumber().equals(csvModel.getDepartment())){
 //                return true;

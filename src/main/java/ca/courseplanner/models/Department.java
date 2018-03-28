@@ -1,6 +1,7 @@
 package ca.courseplanner.models;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class Department {
     private String department;
@@ -41,4 +42,11 @@ public class Department {
         }
         return null;
     }
+
+    public static Comparator<Department> DepartmentComparator = new Comparator<Department>() {
+        @Override
+        public int compare(Department department1, Department department2) {
+            return department1.getDepartment().compareTo(department2.getDepartment());
+        }
+    };
 }
